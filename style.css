@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  margin: 0 148px 0 150px;
+  outline: 1px solid orange;
+}
+.sub{
+  padding-top: 111px;
+  padding-right: 21px;
+}
+.sub-list{
+  display: flex;
+  justify-content: space-between;
+}
+.sub-list-img{
+  margin-left: -30px;
+}
+.sub-title{
+  outline: 1px solid orange;
+}
+.sub-title-first img, .sub-title-second img{
+  float: left;
+ 
+}
+.sub-title{
+  position: relative;
+}
+.sub-title-first img:nth-child(2), .sub-title-second img:nth-child(2){
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.sub-list-text h2{
+  font-family: Open Sans;
+  color:  #212121;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 43px;
+  margin-bottom: 29px;
+}
+.sub-list-text img{
+  margin-bottom: 30px;
+}
+.sub-list-text p{
+  font-family: Open Sans;
+  color:  #86878b;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 45px;
+}
