@@ -1,0 +1,274 @@
+@import "fonts"
+@import "libs"
+@import "base"
+@import "vars"
+
+*
+  margin: 0
+  padding: 0
+
+.container
+  margin: 0 149px 0 150px
+  // outline: 1px solid red
+
+header
+  width: 100%
+  background: #000000
+  display: flex
+  justify-content: space-between
+  img
+    margin: 21px 0 22px 150px 
+
+.header_links
+  margin: 0 148px 0 0
+  display: flex
+  align-items: center
+  text-align: left
+  a
+    width: 100px
+    text-decoration: none
+    color: rgba(255, 255, 255, 0.5)
+    text-align: right
+    font-size: 14px
+
+.main_section
+  position: relative
+  display: flex
+  justify-content: space-between
+  background-repeat: no-repeat
+  background-size: auto
+  background-size: 100% auto
+
+
+
+.main_section_left_bar
+  padding-top: 80px
+  img:nth-child(1)
+    height: 60px
+    margin-bottom: 33px
+  &:nth-child(4)
+    padding-bottom: 10px
+  p
+    margin-top: 14px
+    margin-bottom: 44px
+    font-family: Raleway
+    color:  rgba(255, 255, 255, 0.5)
+    font-size: 16px
+    line-height: 23px
+  h2
+    font-size: 36px
+    color: white
+    line-height: 43px
+    font-weight: 400
+    font-family: Raleway
+    margin-bottom: 36px
+  button
+    font-family: Open Sans
+    font-size: 15px
+    padding: 15px 32px 14px
+    border: 2px solid white
+    background: transparent
+    color: white
+    margin-bottom: 139px
+    cursor: pointer
+
+.main_section_right_bar
+  border-radius: 12px
+  // width: 360px
+  // height: 362px
+  .form-name
+    padding: 18px 56px 15px 52px
+    background: #f2f2f2
+    margin-top: 140px
+    p
+      font-family: Open Sans
+      color:  #333333
+      font-size: 20px
+      font-weight: 700
+      margin: 0
+      span
+        color: #ff8b38
+        font-family: Open Sans
+        font-size: 20px
+        font-weight: 700
+  form
+    text-align: center
+    background: #fcfcfc
+    padding-top: 29px
+    width: 360px
+    .inputbox
+      // outline: 1px solid orange
+      text-align: left
+      width: 285px
+      margin: auto
+      position: relative
+      margin-bottom: 46px
+      border-bottom: 1px solid #d3d3d3
+    .buttonForm
+      width: 100%
+      font-family: Open Sans
+      color:  rgba(255, 255, 255, 0.5)
+      font-size: 15px
+      font-weight: 600
+      height: 54px
+      background: #fc9a4f
+      border: none
+      cursor: pointer
+    .submit
+      height: 54px
+    .labeltext
+      position: absolute
+      font-family: Open Sans
+      color:  #bdbdbd
+      font-size: 14px
+      font-weight: 400
+      line-height: 29px
+      margin-left: 14px
+    .userinput
+      position: relative
+      background: transparent
+      border: none
+      height: 31px
+      background: transparent
+      margin: auto
+      width: 285px
+
+.social
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38)
+
+.social-media
+  display: flex
+  justify-content: space-between
+  padding-bottom: 22px
+  margin-bottom: 3px
+  h2
+    margin-top: 22px
+    font-family: Open Sans
+    color:  #333333
+    font-size: 20px
+    font-weight: 700
+  p
+    font-family: Open Sans
+    color:  #86878b
+    font-size: 14px
+    font-weight: 400
+    line-height: 20px
+  &-items
+    margin-top: 29px
+    .fab
+      color:  #cccccc
+      font-size: 48px
+      font-weight: 400
+    .fas
+      color:  #cccccc
+      font-size: 48px
+    i
+      margin-left: 60px
+      cursor: pointer
+
+.tabs
+  background-color: #f5f5f5
+  padding-top: 147px
+  padding-bottom: 114px
+  display: flex
+  justify-content: space-between
+  &-buttons
+    display: flex
+    flex-direction: column
+    button
+      // padding: 50px 37px
+      width: 112px
+      height: 112px
+      font-family: Open Sans
+      color:  #fcfcfc
+      font-size: 15px
+      font-weight: 600
+      line-height: 20px
+      background: #2f2f2f
+      border: none
+      outline: none
+      cursor: pointer
+      border-bottom: 1px solid white
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38)
+      border-radius: 4px
+      &:last-child
+        border-bottom: none
+    .active
+      background: #fc8a34
+  &-text
+    margin: 0 103px 0 99px
+    p
+      font-family: Open Sans
+      color:  #86878b
+      font-size: 14px
+      font-weight: 400
+      line-height: 20px
+    h2
+      margin-bottom: 52px
+    p:nth-last-child(2)
+      margin-bottom: 51px
+    button
+      padding: 16px 25px
+      border-radius: 4px
+      outline: none
+      background: #fc8a34
+      border: none
+      cursor: pointer
+      color: white
+
+.tabs-error
+  background-color: #f5f5f5
+
+
+.sub
+  padding-top: 111px
+  padding-right: 21px
+  // outline: 1px solid orange
+  &-list
+    display: flex
+    justify-content: space-between
+    &-img
+      margin-left: -30px
+    &-text
+      margin-left: 300px
+      width: 500px
+      h2
+        font-family: Open Sans
+        color:  #212121
+        font-size: 20px
+        font-weight: 700
+        line-height: 43px
+        margin-bottom: 29px
+      img
+        margin-bottom: 30px
+      p
+        font-family: Open Sans
+        color:  #86878b
+        font-size: 14px
+        font-weight: 400
+        line-height: 20px
+        margin-bottom: 43px
+
+
+.sub-title-first, .sub-title-second
+  position: relative
+  img
+    float: left
+    &:nth-child(1)
+      margin-right: 31px
+    &:nth-child(2)
+      position: absolute
+      top: 12px
+      left: 12px
+
+.sub-title-second
+  img:nth-child(1)
+    margin-bottom: 35px
+
+ 
+
+      
+      
+// Пользовательские стили
+
+@import "media" // Всегда в конце

@@ -5,7 +5,6 @@
 
 .container{
   margin: 0 148px 0 150px;
-  outline: 1px solid orange;
 }
 .sub{
   padding-top: 111px;
@@ -18,15 +17,17 @@
 .sub-list-img{
   margin-left: -30px;
 }
-.sub-title{
-  outline: 1px solid orange;
-}
+
 .sub-title-first img, .sub-title-second img{
   float: left;
  
 }
-.sub-title{
+.sub-title-first, .sub-title-second{
   position: relative;
+}
+
+.sub-title-first img:nth-child(1), .sub-title-second img:nth-child(1){
+  margin-right: 31px;
 }
 .sub-title-first img:nth-child(2), .sub-title-second img:nth-child(2){
   position: absolute;
@@ -48,7 +49,7 @@
 .sub-list-text p{
   font-family: Open Sans;
   color:  #86878b;
-  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 45px;
