@@ -304,6 +304,7 @@ header
 
 .awesome-section-content
   text-align: center
+  padding-top: 108px
   h2
     margin-bottom: 30px
   hr
@@ -319,11 +320,30 @@ header
     font-size: 14px
     font-weight: 400
     line-height: 20px
-    
+
 
 .awesome-section-content-items
   display: flex
   justify-content: space-between
+  padding-top: 80px
+  outline: 1px solid red
+  &-card
+    // min-width: 350px
+    position: relative
+    outline: 1px solid orange
+  &-card:nth-child(2)
+    margin: 0 32px
+    img:nth-child(2)
+      // left: 156px
+      // margin: 50%
+      top: 24px 
+  img:nth-child(1)
+    width: 70px
+  img:nth-child(2)
+    position: absolute
+    // left: 165px
+    top: 20px
+    margin: 0 14%
 
 
  
