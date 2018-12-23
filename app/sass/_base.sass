@@ -22,3 +22,15 @@ body
 
 .text-center
 	text-align: center
+
+.with-line
+	position: relative
+
+	&:after
+		content: ''
+		position: absolute
+		left: 50%
+		margin-left: -5px
+		width: 10px
+		height: 2px
+		background: orange
